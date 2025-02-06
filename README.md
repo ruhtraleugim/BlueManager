@@ -56,11 +56,11 @@ Antes de começar, você precisará ter instalado:
 ### 📌 Passos para rodar  
 1. Clone o repositório:  
    ```sh
-   git clone https://github.com/seu-usuario/seu-repositorio.git
+   https://github.com/ruhtraleugim/BlueManager/tree/main
    ```  
 2. Acesse o diretório do projeto:  
    ```sh
-   cd nome-do-projeto
+   cd BlueManeger
    ```  
 3. Configure as credenciais do banco no `application.properties`  
 4. Execute o projeto com Maven:  
