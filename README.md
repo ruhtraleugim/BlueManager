@@ -31,7 +31,7 @@ O projeto utiliza tecnologias modernas para garantir(Ou tentar) **eficiência, e
  ┣ 📂 infra  
  ┃ ┣ 📂 beans (7)  
  ┃ ┣ 📂 dto (7)  
- ┃ ┣ 📂 exceptions (vazio, por enquanto)  
+ ┃ ┣ 📂 exceptions (3)  
  ┃ ┣ 📂 gatewayinfra (7)  
  ┃ ┣ 📂 mappers (8)  
  ┃ ┣ 📂 persistence (7) → 📂 entities (7)  
