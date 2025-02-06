@@ -7,14 +7,14 @@ Este projeto tem como objetivo facilitar o **gerenciamento de vendas, controle f
 O projeto segue uma **arquitetura bem definida**, separando responsabilidades entre diferentes camadas:  
 
 - **🧠 Core** → Contém a lógica de negócio, organizada em domínios, gateways e use cases.  
-- **🛠️ Infra** → Implementa persistência, mapeamentos, DTOs e comunicação com serviços externos.  
+- **🛠️ Infra** → Implementa persistência, mapeamentos, DTOs e futuramente comunicação com serviços externos.  
 - **🎭 Apresentação** → Responsável pela interface de comunicação com o sistema.  
 
 ## 🚀 Tecnologias Utilizadas  
-O projeto utiliza tecnologias modernas para garantir **eficiência, escalabilidade e boas práticas**:  
+O projeto utiliza tecnologias modernas para garantir(Ou tentar) **eficiência, escalabilidade e boas práticas**:  
 
 - **Java 21**  
-- **Spring Boot** (Web, Security, Data JPA)  
+- **Spring Boot** (Web, Security, Data JPA, DevTools , hei de usar Securite )  
 - **Hibernate/JPA** para persistência  
 - **JUnit & Mockito** para testes automatizados  
 - **Lombok** para reduzir boilerplate  
@@ -49,9 +49,9 @@ O projeto utiliza tecnologias modernas para garantir **eficiência, escalabilida
 
 ### 📌 Pré-requisitos  
 Antes de começar, você precisará ter instalado:  
-- [JDK 17+](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html)  
+- [JDK 21+](https://www.oracle.com/java/technologies/javase/jdk21-archive-downloads.html)  
 - [Maven](https://maven.apache.org/download.cgi)  
-- Banco de dados PostgreSQL ou MySQL (configurável)  
+- Banco de dados PostgreSQL, o projeto já tem o H2DataBase pra testes(configurável)  
 
 ### 📌 Passos para rodar  
 1. Clone o repositório:  
@@ -70,7 +70,7 @@ Antes de começar, você precisará ter instalado:
 5. Acesse a API no navegador: `http://localhost:8080`(Ou seja, ainda não disponivel)  
 
 ## 🧪 Testes  
-Para rodar os testes automatizados:  
+Para rodar os testes automatizados:  (Ainda não disponivel )
 ```sh
 mvn test
 ```  
@@ -83,4 +83,4 @@ mvn test
 ## 🤝 Contribuição  
 Se quiser contribuir com o projeto, fique à vontade para abrir **Issues** e enviar **Pull Requests**!  
 
-📌 **Autor**: [Seu Nome](https://github.com/seu-usuario)  
+📌 **Autor**: [Arthur Simões](https://github.com/seu-usuario)  
