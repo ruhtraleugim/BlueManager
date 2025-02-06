@@ -7,7 +7,6 @@ import java.util.Optional;
 import com.BlueSpectre.BlueManeger.Core.Domain.RelatorioDomain;
 
 
-
 public interface RelatorioGateway {
 
         Optional<RelatorioDomain> getRelatorioByID(Long ID);

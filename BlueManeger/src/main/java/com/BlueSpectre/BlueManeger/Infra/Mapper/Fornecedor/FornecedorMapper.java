@@ -9,7 +9,6 @@ import com.BlueSpectre.BlueManeger.Infra.Mapper.MapperInteface;
 import com.BlueSpectre.BlueManeger.Infra.Mapper.Produto.ProdutoMapper;
 import com.BlueSpectre.BlueManeger.Infra.Persistence.Entities.FornecedorEntity;
 
-
 @Component
 public class FornecedorMapper implements MapperInteface<FornecedorDomain, FornecedorDTO, FornecedorEntity>{
     
@@ -31,7 +30,6 @@ public class FornecedorMapper implements MapperInteface<FornecedorDomain, Fornec
                                     dto.fornecedorEmail(),
                                     dto.tipoProduto(),
                                     produtoMapper.toDomain(dto.produtoDTO()));
-
     }
     @Override
     public FornecedorDTO toDto(FornecedorDomain domain) {

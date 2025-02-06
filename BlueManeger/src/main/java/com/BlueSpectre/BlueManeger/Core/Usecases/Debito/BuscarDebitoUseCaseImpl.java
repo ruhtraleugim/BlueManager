@@ -6,7 +6,6 @@ import com.BlueSpectre.BlueManeger.Core.Domain.DebitoDomain;
 import com.BlueSpectre.BlueManeger.Core.Gateway.DebitoGateway;
 import com.BlueSpectre.BlueManeger.Core.Usecases.Intefaces.BuscarUseCase;
 
-
 public class BuscarDebitoUseCaseImpl implements BuscarUseCase<DebitoDomain>{
 
     private final DebitoGateway debitoGateway;

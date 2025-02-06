@@ -12,7 +12,6 @@ import com.BlueSpectre.BlueManeger.Infra.Mapper.Debito.DebitoMapper;
 import com.BlueSpectre.BlueManeger.Infra.Persistence.DebitoPersistence;
 import com.BlueSpectre.BlueManeger.Infra.Persistence.Entities.DebitoEntity;
 
-
 @Service
 public class DebitoInfraGateway implements DebitoGateway {
 

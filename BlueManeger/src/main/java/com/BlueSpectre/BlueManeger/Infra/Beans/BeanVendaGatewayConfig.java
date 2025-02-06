@@ -18,7 +18,6 @@ import com.BlueSpectre.BlueManeger.Core.Usecases.Venda.BuscarVendaUseCaseImpl;
 import com.BlueSpectre.BlueManeger.Core.Usecases.Venda.CriarVendaUseCaseImpl;
 import com.BlueSpectre.BlueManeger.Core.Usecases.Venda.DeleteVendaUseCaseImpl;
 
-
 @Configuration
 public class BeanVendaGatewayConfig {
     @Bean

@@ -1,6 +1,5 @@
 package com.BlueSpectre.BlueManeger.Infra.Dto;
 
-
 import java.time.LocalDate;
 
 import com.BlueSpectre.BlueManeger.Core.Enum.TipoProduto;

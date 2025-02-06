@@ -6,8 +6,6 @@ import com.BlueSpectre.BlueManeger.Core.Domain.EstoqueDomain;
 import com.BlueSpectre.BlueManeger.Core.Gateway.EstoqueGateway;
 import com.BlueSpectre.BlueManeger.Core.Usecases.Intefaces.BuscarUseCase;
 
-
-
 public class BuscarEstoqueUseCaseImpl implements BuscarUseCase<EstoqueDomain> {
 
     private final EstoqueGateway estoqueGateway;

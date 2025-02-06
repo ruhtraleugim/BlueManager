@@ -10,7 +10,6 @@ import com.BlueSpectre.BlueManeger.Infra.Mapper.Fornecedor.FornecedorMapper;
 import com.BlueSpectre.BlueManeger.Infra.Mapper.Produto.ProdutoMapper;
 import com.BlueSpectre.BlueManeger.Infra.Persistence.Entities.EstoqueEntity;
 
-
 @Component
 public class EstoqueMapper implements MapperInteface<EstoqueDomain, EstoqueDTO, EstoqueEntity> {
    
