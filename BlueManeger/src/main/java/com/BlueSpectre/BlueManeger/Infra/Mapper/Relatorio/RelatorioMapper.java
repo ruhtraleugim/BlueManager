@@ -62,7 +62,6 @@ public class RelatorioMapper implements MapperInteface<RelatorioDomain, Relatori
         if (entity == null ) {
             return null;
         }
-        
         return new RelatorioDomain(entity.getIdRelatorio(),
                                     entity.getLucroEsperado(),
                                     entity.getLucroPorProduto(),

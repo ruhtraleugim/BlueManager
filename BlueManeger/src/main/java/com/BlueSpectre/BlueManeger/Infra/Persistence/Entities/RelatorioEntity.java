@@ -19,7 +19,6 @@ public class RelatorioEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long idRelatorio;
-
     private double lucroEsperado;
     private double lucroPorProduto;
     private LocalDateTime dataHoraRelatorio;

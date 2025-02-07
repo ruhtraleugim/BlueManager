@@ -5,6 +5,10 @@ import java.util.List;
 
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -42,22 +46,22 @@ public class PagamentoController implements ControllerInterface<PagamentoDTO>{
         this.buscarPorData = buscarPorData;
         this.delete = delete;
     }
-
+    @PutMapping("alterar/{id}")
     @Override
-    public ResponseEntity<?> alterarEntity(PagamentoDTO c, Long id) {
+    public ResponseEntity<?> alterarEntity(@RequestBody PagamentoDTO c,@PathVariable Long id) {
         PagamentoDomain pagamento = pagamentoMapper.toDomain(c);
         alterar.execute( id , pagamento);
         PagamentoDTO dto = pagamentoMapper.toDto(pagamento);
         return ResponseEntity.ok(dto);
     }
-
+    @GetMapping("buscar")
     @Override
     public List<PagamentoDTO> buscarEntity() {
         return buscar.execute().stream().map(pagamentoMapper::toDto).toList();
     }
-
+    @GetMapping("buscaPorId/{id}")
     @Override
-    public ResponseEntity<PagamentoDTO> buscarEntityPorId(Long id) {
+    public ResponseEntity<PagamentoDTO> buscarEntityPorId(@PathVariable Long id) {
         return ResponseEntity.ok(pagamentoMapper.toDto(buscarPorId.execute(id).get()));
     }
 
@@ -66,7 +70,7 @@ public class PagamentoController implements ControllerInterface<PagamentoDTO>{
     }
 
     @Override
-    public ResponseEntity<?> criarEntity(PagamentoDTO c) {
+    public ResponseEntity<?> criarEntity(@RequestBody PagamentoDTO c) {
         PagamentoDomain pagamento = pagamentoMapper.toDomain(c);
         criar.execute(pagamento);
         PagamentoDTO dto = pagamentoMapper.toDto(pagamento);
@@ -74,7 +78,7 @@ public class PagamentoController implements ControllerInterface<PagamentoDTO>{
     }
 
     @Override
-    public ResponseEntity<?> deletarEntity(Long id) {
+    public ResponseEntity<?> deletarEntity(@PathVariable Long id) {
         delete.execute(id);
         return ResponseEntity.ok().body("A entidade Foi deletada com exito");
     }

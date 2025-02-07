@@ -21,7 +21,6 @@ public class FornecedorEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long idFornecedor;
-
     private double valorProdutoFornecedor;
     private String fornecedorEndereco;
     private String fornecedorNome;

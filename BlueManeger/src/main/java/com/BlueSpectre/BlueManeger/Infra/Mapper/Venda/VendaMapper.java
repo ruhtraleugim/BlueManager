@@ -10,7 +10,6 @@ import com.BlueSpectre.BlueManeger.Infra.Mapper.Pagamento.PagamentoMapper;
 import com.BlueSpectre.BlueManeger.Infra.Mapper.Produto.ProdutoMapper;
 import com.BlueSpectre.BlueManeger.Infra.Persistence.Entities.VendaEntity;
 
-
 @Component
 public class VendaMapper implements MapperInteface<VendaDomain, VendaDTO, VendaEntity>{
     

@@ -76,10 +76,9 @@ public class EstoqueController implements ControllerInterface<EstoqueDTO>{
         EstoqueDTO dto = estoqueMapper.toDto(domain);
         return ResponseEntity.ok().body(dto); 
     }
-
+    
     @Override
     public ResponseEntity<?> deletarEntity(@PathVariable Long id) {
-        // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unsupported method for this entity : 'deleteEntity'");
     }
 }
