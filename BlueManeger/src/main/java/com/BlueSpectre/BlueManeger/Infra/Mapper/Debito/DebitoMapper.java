@@ -68,6 +68,9 @@ public class DebitoMapper implements MapperInteface<DebitoDomain, DebitoDTO, Deb
     }
     @Override
     public DebitoDTO entityToDto(DebitoEntity debitoEntity) {
+        if (debitoEntity == null) {
+            return null;
+        }
         return new DebitoDTO(debitoEntity.getId(),
                             debitoEntity.getDataDebito(),
                             debitoEntity.getValorDebito(),

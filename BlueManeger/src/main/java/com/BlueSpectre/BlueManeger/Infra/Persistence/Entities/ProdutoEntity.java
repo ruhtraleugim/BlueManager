@@ -21,9 +21,7 @@ import com.BlueSpectre.BlueManeger.Core.Enum.TipoProduto;
 public class ProdutoEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-
     private Long idProduto;
-
     private String descricaoProduto;
     private String nomeProduto;
     private LocalDate validadeProduto;

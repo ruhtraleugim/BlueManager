@@ -14,8 +14,7 @@ import lombok.*;
 public class EstoqueEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long idEstoque; 
-
+    private Long idEstoque;
     private int versaoEstoque;
     private int quantidadeProduto;
     private LocalDate dataEstoque;
