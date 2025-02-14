@@ -1,4 +1,4 @@
-package com.BlueSpectre.BlueManeger.Infra.Exeptions;
+package com.BlueSpectre.BlueManeger.Infra.Exception;
 
 public class NotFoundException extends RuntimeException {
     

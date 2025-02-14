@@ -66,8 +66,6 @@ public class FornecedorControler implements ControllerInterface<FornecedorDTO>{
        return ResponseEntity.ok().body(fornecedorMapper.toDto(buscarPorID.execute(id).get()));
     }
 
-    
-
     @GetMapping("buscar/{nome}")
     public ResponseEntity<FornecedorDTO> buscarEntityPorNome(String nome) {
         return ResponseEntity.ok().body(fornecedorMapper.toDto(buscarPorNome.execute(nome).get()));
