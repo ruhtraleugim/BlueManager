@@ -11,14 +11,16 @@ O projeto segue uma **arquitetura bem definida**, separando responsabilidades en
 - **🎭 Apresentação** → Responsável pela interface de comunicação com o sistema.  
 
 ## 🚀 Tecnologias Utilizadas  
-O projeto utiliza tecnologias modernas para garantir(Ou tentar) **eficiência, escalabilidade e boas práticas**:  
+O projeto utiliza e ultilizara de tecnologias modernas para gerar **eficiência, escalabilidade e boas práticas**:  
 
 - **Java 21**  
 - **Spring Boot** (Web, Security, Data JPA, DevTools , hei de usar Securite )  
 - **Hibernate/JPA** para persistência  
 - **JUnit & Mockito** para testes automatizados  
 - **Lombok** para reduzir boilerplate  
-- **Arquitetura Limpa** e princípios SOLID  
+- **Arquitetura Limpa** e princípios SOLID
+- **Docker** para gerar maior portabilidade
+- **PostgreSQL** Banco de dados
 
 ## 📂 Estrutura de Pastas  
 ```
