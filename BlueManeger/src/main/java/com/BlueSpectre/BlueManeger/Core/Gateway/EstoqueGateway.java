@@ -6,7 +6,6 @@ import java.util.Optional;
 
 import com.BlueSpectre.BlueManeger.Core.Domain.EstoqueDomain;
 
-
 public interface EstoqueGateway {
     
         Optional<EstoqueDomain> getEstoqueByID(Long ID);

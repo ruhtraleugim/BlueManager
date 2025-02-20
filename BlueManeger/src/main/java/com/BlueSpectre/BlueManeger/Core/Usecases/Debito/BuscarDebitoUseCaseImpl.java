@@ -5,6 +5,7 @@ import java.util.List;
 import com.BlueSpectre.BlueManeger.Core.Domain.DebitoDomain;
 import com.BlueSpectre.BlueManeger.Core.Gateway.DebitoGateway;
 import com.BlueSpectre.BlueManeger.Core.Usecases.Intefaces.BuscarUseCase;
+import lombok.extern.slf4j.Slf4j;
 
 public class BuscarDebitoUseCaseImpl implements BuscarUseCase<DebitoDomain>{
 
