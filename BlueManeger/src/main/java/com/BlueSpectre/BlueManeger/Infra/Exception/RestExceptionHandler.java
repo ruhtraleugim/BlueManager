@@ -1,5 +1,7 @@
 package com.BlueSpectre.BlueManeger.Infra.Exception;
 
+import com.BlueSpectre.BlueManeger.Infra.Exception.Exeptions.NotFoundException;
+import com.BlueSpectre.BlueManeger.Infra.Exception.Exeptions.UnexpectedValueException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ControllerAdvice;

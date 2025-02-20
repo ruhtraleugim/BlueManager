@@ -4,7 +4,7 @@ import java.util.Optional;
 
 import com.BlueSpectre.BlueManeger.Core.Domain.DebitoDomain;
 import com.BlueSpectre.BlueManeger.Core.Gateway.DebitoGateway;
-import com.BlueSpectre.BlueManeger.Core.Usecases.Intefaces.BuscarPorIDUserCase; 
+import com.BlueSpectre.BlueManeger.Core.Usecases.Intefaces.BuscarPorIDUserCase;
 
 public class BuscarDebitoPorIDUseCaseImpl implements BuscarPorIDUserCase<DebitoDomain>{
 

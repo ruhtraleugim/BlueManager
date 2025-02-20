@@ -9,16 +9,15 @@ import com.BlueSpectre.BlueManeger.Core.Domain.DebitoDomain;
 
 public interface DebitoGateway {
         
-        DebitoDomain AlterarDebito(DebitoDomain debito, Long ID);
-        
+        DebitoDomain updateDebito(DebitoDomain debito, Long id);
+
         DebitoDomain newDebito(DebitoDomain debito);
         
         List<DebitoDomain> GetDebito();
 
-        Optional<DebitoDomain> getDebitosByID(Long ID);
+        Optional<DebitoDomain> getDebitosByID(Long id);
 
         List<DebitoDomain> getDebitosByDate(LocalDate date);
 
-        void deleteDebito(Long ID);
-
+        void deleteDebito(Long id);
 }
