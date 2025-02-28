@@ -14,7 +14,7 @@ O projeto segue uma **arquitetura bem definida**, separando responsabilidades en
 O projeto utiliza e ultilizara de tecnologias modernas para gerar **eficiência, escalabilidade e boas práticas**:  
 
 - **Java 21**  
-- **Spring Boot** (Web, Security, Data JPA, DevTools , hei de usar Securite )  
+- **Spring Boot** (Web, Data JPA, DevTools , hei de usar Security )  
 - **Hibernate/JPA** para persistência  
 - **JUnit & Mockito** para testes automatizados  
 - **Lombok** para reduzir boilerplate  
